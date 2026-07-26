@@ -1,8 +1,27 @@
 aid: double-click
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/double-click.png
 name: Double Click
-description: Double Click is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  DoubleClick was an interactive marketing and advertising technology company founded in 1996 by
+  Kevin O'Connor and Dwight Merriman. It pioneered ad serving, targeting, and campaign measurement for
+  publishers and advertisers, went public on NASDAQ as DCLK, and was acquired by Google in 2008 for
+  roughly $3.1 billion. Its products were folded into Google's advertising stack — DoubleClick for
+  Publishers became Google Ad Manager and DoubleClick Digital Marketing became the Google Marketing
+  Platform. DoubleClick no longer exists as an independent company or API provider; doubleclick.com now
+  redirects to Google Marketing Platform. This API Evangelist profile is retained as a historical
+  venture-portfolio record (surfaced via lightspeed-venture-partners) rather than a live, enrichable
+  developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/double-click/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,34 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: google
+x-acquired-year: 2008
+x-founded: 1996
+x-successor: google-marketing-platform
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Advertising
+- AdTech
+- Marketing
+- Ad Serving
+- Acquired
+- Google
 apis: []
+common:
+- type: Website
+  url: https://marketingplatform.google.com/about/enterprise/
+  name: Google Marketing Platform (DoubleClick successor)
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
