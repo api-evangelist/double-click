@@ -58,6 +58,11 @@ tags:
 - Google
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/google/
+  name: Google
+  x-relationship: acquired
+  x-evidence: "It pioneered ad serving, targeting, and campaign measurement for publishers and advertisers, went public on NASDAQ as DCLK, and was acquired by Google in 2008 for roughly $3."
 - type: Website
   url: https://marketingplatform.google.com/about/enterprise/
   name: Google Marketing Platform (DoubleClick successor)
