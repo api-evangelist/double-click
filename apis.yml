@@ -58,6 +58,8 @@ tags:
 - Google
 apis: []
 common:
+- type: Documentation
+  url: https://developers.google.com/doubleclick-advertisers
 - type: ParentCompany
   url: https://apis.io/providers/google/
   name: Google
